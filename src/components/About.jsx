@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Target, Users, Award, Telescope, Star, Globe } from 'lucide-react'
+import { Target, Users, Award, Eye, Star, Globe } from 'lucide-react'
 
 export default function About() {
   const features = [
@@ -22,7 +22,7 @@ export default function About() {
   ]
 
   const achievements = [
-    { icon: Telescope, value: "500+", label: "Telescópios Entregues" },
+    { icon: Eye, value: "500+", label: "Telescópios Entregues" },
     { icon: Star, value: "15+", label: "Anos no Mercado" },
     { icon: Globe, value: "50+", label: "Cidades Atendidas" },
     { icon: Users, value: "1000+", label: "Clientes Satisfeitos" }
