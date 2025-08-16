@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Telescope, Mail, Phone, MapPin, Star, Heart } from 'lucide-react'
+import { Mail, Phone, MapPin, Star, Heart } from 'lucide-react'
 
 export default function Footer() {
   const scrollToSection = (sectionId) => {
