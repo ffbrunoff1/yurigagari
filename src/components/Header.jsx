@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Menu, X, Telescope } from 'lucide-react'
+import { Menu, X, Eye } from 'lucide-react'
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -51,7 +51,7 @@ export default function Header() {
                 ? 'bg-primary-600 text-white' 
                 : 'bg-white/20 text-white backdrop-blur-sm'
             }`}>
-              <Telescope className="w-6 h-6" />
+              <Eye className="w-6 h-6" />
             </div>
             <span className={`text-xl md:text-2xl font-bold transition-colors ${
               isScrolled 
