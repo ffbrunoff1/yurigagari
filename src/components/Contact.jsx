@@ -53,14 +53,6 @@ export default function Contact() {
     }
   ]
 
-  const telescopeTypes = [
-    "Telescópio para Iniciantes",
-    "Telescópio Intermediário", 
-    "Telescópio Avançado",
-    "Consultoria Especializada",
-    "Outros"
-  ]
-
   return (
     <section id="contact" className="py-20 bg-gradient-to-b from-secondary-900 to-black relative overflow-hidden">
       <div className="absolute inset-0 stars-bg opacity-20"></div>
@@ -136,7 +128,7 @@ export default function Contact() {
               className="bg-gradient-to-r from-primary-600/20 to-accent-500/20 rounded-2xl p-6 backdrop-blur-md border border-white/20"
             >
               <h4 className="text-xl font-semibold text-white mb-4 flex items-center">
-                <Telescope className="w-5 h-5 mr-2 text-primary-400" />
+                <Phone className="w-5 h-5 mr-2 text-primary-400" />
                 Por que Escolher a Yuri Gagari?
               </h4>
               <ul className="space-y-3 text-gray-300">
@@ -231,7 +223,7 @@ export default function Contact() {
                   className="w-full bg-white/10 border border-white/20 rounded-lg px-4 py-3 text-white focus:outline-none focus:border-primary-400 focus:ring-2 focus:ring-primary-400/20 transition-all duration-300"
                 >
                   <option value="" className="bg-secondary-800 text-white">Selecione uma opção</option>
-                  {telescopeTypes.map((type, index) => (
+                  {phoneTypes.map((type, index) => (
                     <option key={index} value={type} className="bg-secondary-800 text-white">
                       {type}
                     </option>

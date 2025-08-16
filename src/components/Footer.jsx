@@ -56,7 +56,7 @@ export default function Footer() {
                 onClick={() => scrollToSection('hero')}
               >
                 <div className="bg-primary-600 p-2 rounded-full">
-                  <Telescope className="w-6 h-6 text-white" />
+                  <Phone className="w-6 h-6 text-white" />
                 </div>
                 <span className="text-2xl font-bold">Yuri Gagari</span>
               </motion.div>
@@ -188,7 +188,7 @@ export default function Footer() {
           }}
           className="absolute top-10 right-10 text-white/10"
         >
-          <Telescope className="w-16 h-16" />
+          <Phone className="w-16 h-16" />
         </motion.div>
 
         <motion.div

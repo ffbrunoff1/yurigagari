@@ -99,7 +99,7 @@ export default function Services() {
         </motion.div>
 
         <div className="grid md:grid-cols-3 gap-8 mb-20">
-          {telescopes.map((telescope, index) => (
+          {zap.map((zap, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 50 }}
@@ -111,13 +111,13 @@ export default function Services() {
             >
               <div className="relative">
                 <img 
-                  src={telescope.image} 
-                  alt={telescope.name}
+                  src={zap.image} 
+                  alt={zap.name}
                   className="w-full h-48 object-cover"
                 />
                 <div className="absolute top-4 left-4">
                   <span className="bg-primary-600 text-white px-3 py-1 rounded-full text-sm font-medium">
-                    {telescope.category}
+                    {zap.category}
                   </span>
                 </div>
               </div>
